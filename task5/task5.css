@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding-bottom: 60px;
+    height: 100%;
+}
+
+.header {
+    background-color: #5fc0cd;
+    height: 45px;
+    display: flex;
+}
+
+.back {
+    text-align: center;
+    line-height: 45px;
+    width: 40px;
+}
+
+.back img {
+    vertical-align: middle;
+    width: 10px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-left: -40px;
+    flex: 1;
+}
+
+.content {
+    height: 150px;
+    background: url("../img/task5_4.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.headimg {
+    margin-left: 30px;
+    width: 70px;
+}
+
+.head_content {
+    margin-left: 20px;
+}
+
+.head_content p {
+    color: white;
+}
+
+.head_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    align-items: center;
+}
+
+.head_content img {
+    height: 20px;
+}
+
+.head_info p {
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill p {
+    border-left: 2px solid #5fc0cd;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.skill_1 {
+    padding: 0 10px;
+
+}
+
+.skill_1 div {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.skill_1 img {
+    height: 10px;
+    margin: 0 5px;
+}
+
+.b_font {
+    font-size: 14px;
+    flex: 1;
+}
+
+.s_font {
+    font-size: 14px;
+}
+
+.g_font {
+    font-size: 14px;
+    color: #c1c1c5;
+    width: 60px;
+    border-right: 1px solid #ddd;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+.r_font {
+    font-size: 14px;
+    color: red;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    width: 100%;
+    background-color: #fefefe;
+}
+
+.ly {
+    flex: 1;
+    text-align: center;
+    color: #5fc0cd;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #5fc0cd;
+    padding: 10px;
+}
+
+.dhlx {
+    flex: 1;
+    text-align: center;
+    color: white;
+    background-color: #5fc0cd;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+}
