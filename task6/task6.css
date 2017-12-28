@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    height: 100%;
+    padding-bottom: 72px;
+}
+
+.header {
+    background-color: #5fc0cd;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > div {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background: #57a9b1;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header p {
+    color: white;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.header p:nth-child(2) {
+    color: #5fc0cd;
+    display: inline-block;
+    border-radius: 5px;
+    background: white;
+    padding: 0 8px;
+}
+
+.header_location {
+    zoom: 0.5;
+    position: absolute;
+    margin-right: 15px;
+    right: 0;
+}
+
+.header_location div {
+    width: 42px;
+    height: 44px;
+    background: url('../img/task6_css_sprites.png') -10px -126px no-repeat;
+}
+
+.selector {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.loc, .accommodation, .patient {
+    text-align: center;
+    flex: 1;
+    position: relative;
+    margin-left: -5px;
+}
+
+.loc p, .accommodation p, .patient p {
+    color: #999999;
+}
+
+.loc:after, .accommodation:after, .patient:after {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ddd;
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2.5px;
+    right: 10px;
+}
+
+.loc:before, .accommodation:before, .patient:before {
+    width: 1px;
+    height: 24px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right: 0;
+    background: #ddd;
+}
+
+.line {
+    border-bottom: 1px solid #ddd;
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.line1 p:nth-child(1) {
+    width: 27px;
+    height: 24px;
+    zoom: 50%;
+    background: url('../img/task6_css_sprites.png') -124px -73px;
+}
+
+.line1 p:nth-child(2) {
+    color: #999999;
+    margin-left: 10px;
+}
+
+.line2 {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.line2 p:nth-child(1) {
+    flex: 1;
+    padding-left: 37px;
+}
+
+.line2 p:nth-child(2) {
+    color: red;
+    text-align: center;
+}
+
+.line2:after {
+    content: ">";
+    color: #5fc0cd;
+    padding: 0 10px;
+}
+
+.line3 {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.line3 p:nth-child(1) {
+    zoom: 50%;
+    width: 19px;
+    height: 24px;
+    background: url('../img/task6_css_sprites.png') -134px -126px;
+}
+
+.line3 p:nth-child(2) {
+    color: #999999;
+    margin-left: 10px;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    height: 72px;
+    background: #f9fafc;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLeft, .footRight, .footMid {
+    flex: 1;
+    text-align: center;
+}
+
+.leftImg, .rightImg, .midImg {
+    display: flex;
+    justify-content: center;
+}
+
+.footLeft > p {
+    color: #5fc0cd;
+    margin: 0;
+}
+
+.footRight > p {
+    color: #999999;
+    margin: 0;
+}
+
+.leftImg p {
+    width: 47px;
+    height: 43px;
+    zoom: 50%;
+    background: url('../img/task6_css_sprites.png') -124px -10px;
+}
+
+.rightImg p {
+    width: 42px;
+    height: 43px;
+    zoom: 50%;
+    background: url('../img/task6_css_sprites.png') -72px -126px;
+}
+
+.midImg p {
+    width: 94px;
+    height: 96px;
+    zoom: 50%;
+    background: url('../img/task6_css_sprites.png') -10px -10px;
+}
